@@ -46,5 +46,5 @@ class Record:
         for item in self.phone_numbers:
             if item == phone:
                 del item
-                return f"Number {Phone(phone)} deleted."
+                return f"Number {phone} deleted."
         return " Phone number not found!!! "    
